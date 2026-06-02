@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Leaderboard</title>
+
+    <link rel="stylesheet"
+    href="{{ url_for('static', filename='css/style.css') }}">
+</head>
+
+<body>
+
+<div class="container">
+
+<h1>🏆 Social Productivity Leaderboard</h1>
+
+<table class="leaderboard-table">
+
+<tr>
+    <th>Rank</th>
+    <th>Name</th>
+    <th>Points</th>
+    <th>Tasks</th>
+</tr>
+
+<tr class="top-rank">
+    <td>🥇</td>
+    <td>Rohit</td>
+    <td>450</td>
+    <td>45</td>
+</tr>
+
+<tr>
+    <td>🥈</td>
+    <td>Kiran</td>
+    <td>400</td>
+    <td>40</td>
+</tr>
+
+<tr>
+    <td>🥉</td>
+    <td>Rahul</td>
+    <td>350</td>
+    <td>35</td>
+</tr>
+
+<tr>
+    <td>4</td>
+    <td>Priya</td>
+    <td>300</td>
+    <td>30</td>
+</tr>
+
+</table>
+
+<br>
+
+<a href="/dashboard">
+<button>📊 Dashboard</button>
+</a>
+
+</div>
+
+</body>
+</html>

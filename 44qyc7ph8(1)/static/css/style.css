@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: 'Segoe UI', sans-serif;
+    background: linear-gradient(135deg, #667eea, #764ba2);
+    min-height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 1000px;
+    margin: 30px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 20px;
+    box-shadow: 0px 8px 25px rgba(0,0,0,0.2);
+}
+
+h1 {
+    color: #333;
+    text-align: center;
+}
+
+h2 {
+    color: #555;
+}
+
+button {
+    background: #667eea;
+    color: white;
+    border: none;
+    padding: 12px 20px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin: 5px;
+    font-size: 15px;
+}
+
+button:hover {
+    background: #5a67d8;
+}
+
+input {
+    padding: 12px;
+    width: 250px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+}
+
+.card {
+    background: #f8f9ff;
+    padding: 20px;
+    margin: 15px 0;
+    border-radius: 15px;
+}
+
+.stats {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.stat-box {
+    background: white;
+    width: 200px;
+    padding: 20px;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 0px 3px 10px rgba(0,0,0,0.1);
+}
+
+.stat-box h3 {
+    margin: 0;
+    color: #667eea;
+}
+
+.leaderboard-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.leaderboard-table th {
+    background: #667eea;
+    color: white;
+    padding: 15px;
+}
+
+.leaderboard-table td {
+    padding: 12px;
+    border-bottom: 1px solid #ddd;
+}
+
+.leaderboard-table tr:hover {
+    background: #f1f3ff;
+}
+
+.top-rank {
+    background: #fff8dc;
+    font-weight: bold;
+}
